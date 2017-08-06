@@ -1,3 +1,19 @@
+## Instructions Udacity 
+``` conda create -n style-transfer python=2.7.9
+    source activate style-transfer
+    pip install tensorflow
+    conda install scipy pillow
+    
+    python evaluate.py --checkpoint ./rain-princess.ckpt --in-path <path_to_input_file> --out-path ./output_image.jpg
+    
+    
+    activate style-transfer
+    python evaluate.py --checkpoint ./cp/rain-princess.ckpt --in-path ./me_in --out-path ./me_out
+
+```
+
+
+
 ## Fast Style Transfer in [TensorFlow](https://github.com/tensorflow/tensorflow)
 
 Add styles from famous paintings to any photo in a fraction of a second! [You can even style videos!](#video-stylization)
